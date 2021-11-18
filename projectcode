@@ -1,0 +1,62 @@
+gunzip proteomes/*.gz
+
+cat  proteomes/* > allprotein.fas
+
+makeblastdb -in allprotein.fas -parse_seqids -dbtype prot
+
+ncbi-acc-download -F fasta -m protein XP_032219950.1
+
+blastp -db allprotein.fas -query XP_032219950.1.fa -outfmt 0 -max_hsps 1 -out Nvectensis.blastp.typical.out
+
+less Nvectensis.blastp.typical.out
+
+blastp -db allprotein.fas -query XP_032219950.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out vectensis.blastp.detail.out
+
+less Nvectensis.blastp.detail.out
+
+grep -c Hsapiens Nvectensis.blastp.detail.out
+
+awk '{if ($6<0.0000000001)print $1 }' Nvectensis.blastp.detail.out > Nvectensis.blastp.detail.filtered.out
+
+wc -l Nvectensis.blastp.detail.filtered.out
+
+seqkit grep --pattern-file Nvectensis.blastp.detail.filtered.out allprotein.fas > Nvectensis.blastp.detail.filtered.fas
+
+muscle -in Nvectensis.blastp.detail.filtered.fas -out Nvectensis.blastp.detail.filtered.aligned.fas
+
+t_coffee -other_pg seq_reformat -in Nvectensis.blastp.detail.filtered.aligned.fas -output sim
+
+alv -kli --majority Nvectensis.blastp.detail.filtered.aligned.fas | less -RS
+
+t_coffee -other_pg seq_reformat -in Nvectensis.blastp.detail.filtered.aligned.fas -action +rm_gap 50 -out Nvectensis.blastp.detail.filtered.aligned.r50.fas
+
+alv -kli --majority Nvectensis.blastp.detail.filtered.aligned.r50.fas | less -RS
+
+
+sed "s/ /_/g" Nvectensis.blastp.detail.filtered.aligned.fas > Nvectensis.blastp.detail.filtered.aligned_.fas
+
+iqtree -s Nvectensis.blastp.detail.filtered.aligned_.fas -nt 2
+
+gotree reroot midpoint -i Nvectensis.blastp.detail.filtered.aligned_.fas.treefile -o Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile
+
+nw_display -s  Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile -w 1000 -b 'opacity:0' >  Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.svg
+
+
+java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s speciesTreeBilateriaCnidaria.tre -g Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile --reconcile --speciestag prefix --savepng --events
+
+python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.reconciled --include.species 
+
+thirdkind -f Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.genes.tre.reconciled.xml -o  Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.genes.tre.reconciled.svg
+
+iqtree -s Nvectensis.blastp.detail.filtered.aligned_.fas -bb 1000 -nt 2 -m rtREV+F+R5 -t Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile -pre Nvectensis.genes.ufboot
+
+gotree reroot midpoint -i Nvectensis.genes.ufboot -o Nvectensis.genes.midpoint.ufboot
+
+
+iprscan5   --email yuejia.li@stonybrook.edu  --multifasta --useSeqId --sequence   Nvectensis.blastp.detail.filtered.fas
+ 
+cat ~/myfamily/*.tsv.tsv > ~/myfamily/Nvectensis.domains.all.tsv
+
+grep Pfam ~/myfamily/Nvectensis.domains.all.tsv >  ~/myfamily/Nvectensis.domains.pfam.tsv
+
+awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' ~/myfamily/Nvectensis.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > ~/myfamily/Nvectensis.domains.pfam.evol.tsv
