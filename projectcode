@@ -48,6 +48,8 @@ python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g Nvectensis.blastp
 
 thirdkind -f Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.genes.tre.reconciled.xml -o  Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile.genes.tre.reconciled.svg
 
+java -jar ~/tools/Notung-3.0-beta/Notung-3.0-beta.jar -s speciesTreeBilateriaCnidaria.tre -g Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile --root --speciestag prefix --savepng --events
+
 iqtree -s Nvectensis.blastp.detail.filtered.aligned_.fas -bb 1000 -nt 2 -m rtREV+F+R5 -t Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile -pre Nvectensis.genes.ufboot
 
 gotree reroot midpoint -i Nvectensis.genes.ufboot -o Nvectensis.genes.midpoint.ufboot
