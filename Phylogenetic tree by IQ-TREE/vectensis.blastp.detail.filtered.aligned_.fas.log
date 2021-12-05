@@ -1,0 +1,223 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ip-172-31-31-100.ec2.internal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s vectensis.blastp.detail.filtered.aligned_.fas -nt 2
+Seed:    771014 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct  1 01:13:30 2021
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file vectensis.blastp.detail.filtered.aligned_.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 24 sequences with 624 columns, 500 distinct patterns
+289 parsimony-informative, 160 singleton sites, 175 constant sites
+                                                            Gap/Ambiguity  Composition  p-value
+   1  Bbelcheri.XP_019634446.1                                     22.76%    failed      0.03%
+   2  Nvectensis.XP_032223018.1                                    49.68%    failed      0.41%
+   3  Myessoensis.XP_021354724.1                                    8.81%    passed     57.57%
+   4  Bbelcheri.XP_019642505.1                                     51.28%    failed      0.02%
+   5  Myessoensis.XP_021343977.1                                   60.26%    failed      0.02%
+   6  Myessoensis.XP_021349705.1                                   38.46%    passed      6.22%
+   7  Aplanci.XP_022096965.1                                       58.01%    failed      4.06%
+   8  Myessoensis.XP_021379683.1                                   61.22%    passed     77.29%
+   9  Myessoensis.XP_021373998.1                                   52.88%    failed      0.08%
+  10  Dgigantea.XP_028401211.1                                     67.79%    passed     22.35%
+  11  Hvulgaris.XP_012556167.1                                     57.37%    failed      0.00%
+  12  Aplanci.XP_022093088.1                                       41.03%    passed     16.26%
+  13  Hvulgaris.XP_002167159.1                                     68.75%    failed      0.00%
+  14  Nvectensis.XP_032219950.1                                    67.95%    passed     32.33%
+  15  Nvectensis.XP_032238384.1                                    62.34%    passed     24.04%
+  16  Hsapiens.NP_001343.2_D_site-binding_protein                  47.92%    failed      0.00%
+  17  Hsapiens.NP_002117.1_hepatic_leukemia_factor_isoform_1       52.72%    passed      9.97%
+  18  Hsapiens.NP_003207.1_thyrotroph_embryonic_factor_isoform_1   51.44%    passed     27.92%
+  19  Myessoensis.XP_021364925.1                                   50.80%    passed     13.85%
+  20  Bbelcheri.XP_019614533.1                                     55.29%    passed     35.77%
+  21  Bbelcheri.XP_019621754.1                                     51.44%    passed     19.97%
+  22  Aplanci.XP_022103079.1                                       53.21%    passed     49.49%
+  23  Dgigantea.XP_028401709.1                                     69.87%    failed      4.95%
+  24  Nvectensis.XP_032223208.1                                    60.90%    failed      4.57%
+WARNING: 18 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                        52.59%  11 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -16827.561
+Optimal log-likelihood: -16827.110
+Proportion of invariable sites: 0.016
+Gamma shape alpha: 1.034
+Parameters optimization took 1 rounds (0.077 sec)
+Time for fast ML tree search: 0.581 seconds
+
+NOTE: ModelFinder requires 19 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 624) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            17336.498    45  34762.995    34770.158    34962.622
+  2  LG+I          17224.241    46  34540.481    34547.975    34744.544
+  3  LG+G4         16840.369    46  33772.739    33780.233    33976.802
+  4  LG+I+G4       16826.907    47  33747.814    33755.648    33956.313
+  5  LG+R2         16898.238    47  33890.475    33898.309    34098.974
+  6  LG+R3         16824.798    49  33747.596    33756.133    33964.967
+  7  LG+R4         16805.912    51  33713.825    33723.097    33940.068
+  8  LG+R5         16797.699    53  33701.397    33711.439    33936.513
+  9  LG+R6         16797.044    55  33704.089    33714.934    33948.077
+ 20  LG+F+R4       16660.222    70  33460.445    33478.419    33770.975
+ 21  LG+F+R5       16646.743    72  33437.486    33456.564    33756.889
+ 33  WAG+R4        16791.099    51  33684.198    33693.471    33910.442
+ 34  WAG+R5        16784.529    53  33675.057    33685.099    33910.173
+ 46  WAG+F+R4      16683.655    70  33507.311    33525.286    33817.841
+ 47  WAG+F+R5      16677.188    72  33498.375    33517.453    33817.778
+ 59  JTT+R4        16746.195    51  33594.391    33603.663    33820.634
+ 60  JTT+R5        16743.239    53  33592.479    33602.521    33827.595
+ 72  JTT+F+R4      16643.924    70  33427.848    33445.823    33738.379
+ 73  JTT+F+R5      16639.882    72  33423.764    33442.842    33743.167
+ 85  JTTDCMut+R4   16748.433    51  33598.866    33608.139    33825.110
+ 86  JTTDCMut+R5   16746.301    53  33598.601    33608.643    33833.717
+ 98  JTTDCMut+F+R4 16644.246    70  33428.492    33446.467    33739.023
+ 99  JTTDCMut+F+R5 16639.935    72  33423.869    33442.947    33743.272
+111  DCMut+R4      16857.206    51  33816.412    33825.684    34042.655
+112  DCMut+R5      16852.184    53  33810.367    33820.409    34045.483
+124  DCMut+F+R4    16712.117    70  33564.235    33582.209    33874.765
+125  DCMut+F+R5    16703.770    72  33551.539    33570.617    33870.942
+137  VT+R4         16737.540    51  33577.080    33586.353    33803.324
+138  VT+R5         16735.349    53  33576.699    33586.741    33811.815
+150  VT+F+R4       16647.930    70  33435.861    33453.835    33746.391
+151  VT+F+R5       16643.907    72  33431.814    33450.892    33751.217
+163  PMB+R4        16870.522    51  33843.044    33852.317    34069.287
+164  PMB+R5        16866.906    53  33839.813    33849.855    34074.929
+176  PMB+F+R4      16683.790    70  33507.581    33525.556    33818.112
+177  PMB+F+R5      16679.120    72  33502.239    33521.317    33821.642
+189  Blosum62+R4   16898.093    51  33898.186    33907.458    34124.429
+190  Blosum62+R5   16894.607    53  33895.213    33905.255    34130.329
+202  Blosum62+F+R4 16687.201    70  33514.403    33532.378    33824.933
+203  Blosum62+F+R5 16683.377    72  33510.754    33529.832    33830.157
+215  Dayhoff+R4    16857.481    51  33816.963    33826.236    34043.207
+216  Dayhoff+R5    16852.471    53  33810.942    33820.984    34046.058
+228  Dayhoff+F+R4  16712.652    70  33565.304    33583.278    33875.834
+229  Dayhoff+F+R5  16704.238    72  33552.476    33571.555    33871.879
+241  mtREV+R4      17565.311    51  35232.622    35241.895    35458.866
+242  mtREV+R5      17562.188    53  35230.376    35240.418    35465.492
+254  mtREV+F+R4    16739.164    70  33618.329    33636.304    33928.859
+255  mtREV+F+R5    16733.864    72  33611.729    33630.807    33931.132
+267  mtART+R4      17732.273    51  35566.547    35575.819    35792.790
+268  mtART+R5      17721.777    53  35549.554    35559.597    35784.670
+280  mtART+F+R4    16774.299    70  33688.598    33706.572    33999.128
+281  mtART+F+R5    16756.303    72  33656.605    33675.683    33976.008
+293  mtZOA+R4      17466.997    51  35035.994    35045.267    35262.238
+294  mtZOA+R5      17461.038    53  35028.075    35038.117    35263.191
+306  mtZOA+F+R4    16721.333    70  33582.667    33600.641    33893.197
+307  mtZOA+F+R5    16706.032    72  33556.064    33575.142    33875.467
+319  mtMet+R4      17642.132    51  35386.264    35395.537    35612.508
+320  mtMet+R5      17637.446    53  35380.893    35390.935    35616.009
+332  mtMet+F+R4    16717.869    70  33575.738    33593.713    33886.269
+333  mtMet+F+R5    16708.935    72  33561.869    33580.947    33881.272
+345  mtVer+R4      17658.683    51  35419.367    35428.639    35645.610
+346  mtVer+R5      17653.535    53  35413.071    35423.113    35648.187
+358  mtVer+F+R4    16820.340    70  33780.679    33798.654    34091.210
+359  mtVer+F+R5    16806.307    72  33756.614    33775.692    34076.017
+371  mtInv+R4      17837.939    51  35777.878    35787.151    36004.122
+372  mtInv+R5      17835.078    53  35776.157    35786.199    36011.273
+384  mtInv+F+R4    16682.364    70  33504.727    33522.702    33815.258
+385  mtInv+F+R5    16674.620    72  33493.241    33512.319    33812.644
+397  mtMAM+R4      17732.341    51  35566.681    35575.954    35792.925
+398  mtMAM+R5      17722.968    53  35551.935    35561.977    35787.051
+410  mtMAM+F+R4    16839.156    70  33818.312    33836.286    34128.842
+411  mtMAM+F+R5    16823.949    72  33791.898    33810.976    34111.301
+423  HIVb+R4       17060.640    51  34223.280    34232.552    34449.523
+424  HIVb+R5       17058.502    53  34223.004    34233.046    34458.120
+436  HIVb+F+R4     16751.802    70  33643.604    33661.579    33954.135
+437  HIVb+F+R5     16743.282    72  33630.565    33649.643    33949.968
+449  HIVw+R4       17470.049    51  35042.099    35051.371    35268.342
+450  HIVw+R5       17466.224    53  35038.447    35048.489    35273.563
+462  HIVw+F+R4     16892.775    70  33925.550    33943.525    34236.081
+463  HIVw+F+R5     16884.896    72  33913.792    33932.870    34233.195
+475  FLU+R4        16959.362    51  34020.723    34029.996    34246.967
+476  FLU+R5        16952.127    53  34010.254    34020.296    34245.370
+488  FLU+F+R4      16767.496    70  33674.992    33692.967    33985.522
+489  FLU+F+R5      16752.471    72  33648.941    33668.019    33968.344
+501  rtREV+R4      16926.741    51  33955.482    33964.755    34181.726
+502  rtREV+R5      16921.202    53  33948.405    33958.447    34183.521
+514  rtREV+F+R4    16645.907    70  33431.813    33449.788    33742.344
+515  rtREV+F+R5    16633.677    72  33411.353    33430.432    33730.756
+527  cpREV+R4      16926.534    51  33955.067    33964.340    34181.311
+528  cpREV+R5      16922.681    53  33951.361    33961.403    34186.477
+540  cpREV+F+R4    16712.621    70  33565.242    33583.217    33875.772
+541  cpREV+F+R5    16701.287    72  33546.574    33565.652    33865.977
+Akaike Information Criterion:           rtREV+F+R5
+Corrected Akaike Information Criterion: rtREV+F+R5
+Bayesian Information Criterion:         rtREV+F+R5
+Best-fit model: rtREV+F+R5 chosen according to BIC
+
+All model information printed to vectensis.blastp.detail.filtered.aligned_.fas.model.gz
+CPU time for ModelFinder: 209.082 seconds (0h:3m:29s)
+Wall-clock time for ModelFinder: 104.819 seconds (0h:1m:44s)
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -16633.677
+2. Current log-likelihood: -16633.304
+Optimal log-likelihood: -16633.274
+Site proportion and rates:  (0.066,0.023) (0.082,0.101) (0.334,0.254) (0.335,0.585) (0.184,3.865)
+Parameters optimization took 2 rounds (0.372 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.167597 sec (of wall-clock time) 0.338547 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.000318 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16677.934
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.434 second
+Computing log-likelihood of 98 initial trees ... 1.650 seconds
+Current best score: -16633.274
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -16632.537
+Iteration 10 / LogL: -16637.540 / Time: 0h:0m:7s
+Iteration 20 / LogL: -16632.584 / Time: 0h:0m:12s
+Finish initializing candidate tree set (10)
+Current best tree score: -16632.537 / CPU time: 11.997
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -16632.583 / Time: 0h:0m:16s (0h:0m:39s left)
+Iteration 40 / LogL: -16644.238 / Time: 0h:0m:19s (0h:0m:30s left)
+Iteration 50 / LogL: -16632.735 / Time: 0h:0m:22s (0h:0m:23s left)
+Iteration 60 / LogL: -16632.581 / Time: 0h:0m:25s (0h:0m:17s left)
+Iteration 70 / LogL: -16632.758 / Time: 0h:0m:28s (0h:0m:12s left)
+Iteration 80 / LogL: -16632.870 / Time: 0h:0m:31s (0h:0m:8s left)
+Iteration 90 / LogL: -16632.625 / Time: 0h:0m:34s (0h:0m:4s left)
+Iteration 100 / LogL: -16632.540 / Time: 0h:0m:37s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16632.537
+Optimal log-likelihood: -16632.528
+Site proportion and rates:  (0.067,0.023) (0.081,0.101) (0.336,0.255) (0.332,0.589) (0.184,3.845)
+Parameters optimization took 1 rounds (0.200 sec)
+BEST SCORE FOUND : -16632.528
+Total tree length: 109.094
+
+Total number of iterations: 102
+CPU time used for tree search: 75.202 sec (0h:1m:15s)
+Wall-clock time used for tree search: 37.773 sec (0h:0m:37s)
+Total CPU time used: 77.082 sec (0h:1m:17s)
+Total wall-clock time used: 38.744 sec (0h:0m:38s)
+
+Analysis results written to: 
+  IQ-TREE report:                vectensis.blastp.detail.filtered.aligned_.fas.iqtree
+  Maximum-likelihood tree:       vectensis.blastp.detail.filtered.aligned_.fas.treefile
+  Likelihood distances:          vectensis.blastp.detail.filtered.aligned_.fas.mldist
+  Screen log file:               vectensis.blastp.detail.filtered.aligned_.fas.log
+
+Date and Time: Fri Oct  1 01:15:54 2021
