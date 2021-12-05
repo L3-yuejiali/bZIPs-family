@@ -1,0 +1,63 @@
+COST: 41.5
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n41                 Cnidaria            Eumetazoa
+n37                 Cnidaria            Eumetazoa
+n32                 Hvulgaris           Cnidaria
+n36                 Nvectensis          Anthozoa
+n72                 Bilateria           Eumetazoa
+n58                 Bilateria           Eumetazoa
+n57                 Bilateria           Eumetazoa
+n55                 Bilateria           Eumetazoa
+n53                 Bilateria           Eumetazoa
+n52                 Bilateria           Eumetazoa
+n71                 Bilateria           Eumetazoa
+n63                 Hsapiens            Chordata
+n61                 Hsapiens            Chordata
+n70                 Bilateria           Eumetazoa
+n66                 Bbelcheri           Chordata
+Duplications: 15 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Anthozoa            0
+Hsapiens            3
+Dgigantea           1
+Bilateria           0
+Aplanci             4
+Nvectensis          0
+Cnidaria            0
+Deuterostomia       2
+Chordata            3
+Myessoensis         3
+Hvulgaris           2
+Bbelcheri           1
+Eumetazoa           0
+
+Losses: 19
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Anthozoa            0              0              0              0              0              
+Hsapiens            2              0              0              0              3              
+Dgigantea           0              0              0              0              1              
+Bilateria           8              0              0              0              0              
+Aplanci             0              0              0              0              4              
+Nvectensis          1              0              0              0              0              
+Cnidaria            2              0              0              0              0              
+Deuterostomia       0              0              0              0              2              
+Chordata            0              0              0              0              3              
+Myessoensis         0              0              0              0              3              
+Hvulgaris           1              0              0              0              2              
+Bbelcheri           1              0              0              0              1              
+Eumetazoa           0              0              0              0              0              
+
+Duplications: 15
+Losses: 19
+

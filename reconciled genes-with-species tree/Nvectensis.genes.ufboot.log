@@ -1,0 +1,152 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ip-172-31-31-100.ec2.internal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s Nvectensis.blastp.detail.filtered.aligned_.fas -bb 1000 -nt 2 -m rtREV+F+R5 -t Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile -pre Nvectensis.genes.ufboot
+Seed:    16967 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 14 21:47:10 2021
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file Nvectensis.blastp.detail.filtered.aligned_.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 24 sequences with 624 columns, 500 distinct patterns
+289 parsimony-informative, 160 singleton sites, 175 constant sites
+                                                            Gap/Ambiguity  Composition  p-value
+   1  Bbelcheri.XP_019634446.1                                     22.76%    failed      0.03%
+   2  Nvectensis.XP_032223018.1                                    49.68%    failed      0.41%
+   3  Myessoensis.XP_021354724.1                                    8.81%    passed     57.57%
+   4  Bbelcheri.XP_019642505.1                                     51.28%    failed      0.02%
+   5  Myessoensis.XP_021343977.1                                   60.26%    failed      0.02%
+   6  Myessoensis.XP_021349705.1                                   38.46%    passed      6.22%
+   7  Aplanci.XP_022096965.1                                       58.01%    failed      4.06%
+   8  Myessoensis.XP_021379683.1                                   61.22%    passed     77.29%
+   9  Myessoensis.XP_021373998.1                                   52.88%    failed      0.08%
+  10  Dgigantea.XP_028401211.1                                     67.79%    passed     22.35%
+  11  Hvulgaris.XP_012556167.1                                     57.37%    failed      0.00%
+  12  Aplanci.XP_022093088.1                                       41.03%    passed     16.26%
+  13  Hvulgaris.XP_002167159.1                                     68.75%    failed      0.00%
+  14  Nvectensis.XP_032219950.1                                    67.95%    passed     32.33%
+  15  Nvectensis.XP_032238384.1                                    62.34%    passed     24.04%
+  16  Hsapiens.NP_001343.2_D_site-binding_protein                  47.92%    failed      0.00%
+  17  Hsapiens.NP_002117.1_hepatic_leukemia_factor_isoform_1       52.72%    passed      9.97%
+  18  Hsapiens.NP_003207.1_thyrotroph_embryonic_factor_isoform_1   51.44%    passed     27.92%
+  19  Myessoensis.XP_021364925.1                                   50.80%    passed     13.85%
+  20  Bbelcheri.XP_019614533.1                                     55.29%    passed     35.77%
+  21  Bbelcheri.XP_019621754.1                                     51.44%    passed     19.97%
+  22  Aplanci.XP_022103079.1                                       53.21%    passed     49.49%
+  23  Dgigantea.XP_028401709.1                                     69.87%    failed      4.95%
+  24  Nvectensis.XP_032223208.1                                    60.90%    failed      4.57%
+WARNING: 18 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                        52.59%  11 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file Nvectensis.blastp.detail.filtered.aligned_.fas.midpoint.treefile ... rooted tree
+Generating 1000 samples for ultrafast bootstrap (seed: 16967)...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -16754.227
+2. Current log-likelihood: -16664.368
+3. Current log-likelihood: -16654.212
+4. Current log-likelihood: -16650.029
+5. Current log-likelihood: -16647.501
+6. Current log-likelihood: -16645.939
+7. Current log-likelihood: -16644.918
+8. Current log-likelihood: -16644.268
+9. Current log-likelihood: -16643.749
+10. Current log-likelihood: -16643.308
+11. Current log-likelihood: -16642.908
+12. Current log-likelihood: -16642.547
+13. Current log-likelihood: -16642.293
+14. Current log-likelihood: -16642.058
+15. Current log-likelihood: -16641.857
+16. Current log-likelihood: -16641.692
+17. Current log-likelihood: -16641.560
+18. Current log-likelihood: -16641.452
+Optimal log-likelihood: -16641.320
+Site proportion and rates:  (0.082,0.055) (0.082,0.197) (0.318,0.424) (0.295,0.900) (0.223,2.596)
+Parameters optimization took 18 rounds (3.205 sec)
+
+Do NNI search on 1 best initial trees
+Finish initializing candidate tree set (1)
+Current best tree score: -16641.320 / CPU time: 0.081
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -16641.311
+Iteration 10 / LogL: -16641.490 / Time: 0h:0m:6s
+Iteration 20 / LogL: -16641.447 / Time: 0h:0m:8s
+Iteration 30 / LogL: -16641.321 / Time: 0h:0m:11s (0h:0m:28s left)
+Iteration 40 / LogL: -16642.508 / Time: 0h:0m:14s (0h:0m:22s left)
+Iteration 50 / LogL: -16642.264 / Time: 0h:0m:17s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -16661.139
+Iteration 60 / LogL: -16641.317 / Time: 0h:0m:21s (0h:0m:14s left)
+Iteration 70 / LogL: -16641.430 / Time: 0h:0m:24s (0h:0m:10s left)
+Iteration 80 / LogL: -16641.686 / Time: 0h:0m:27s (0h:0m:6s left)
+Iteration 90 / LogL: -16641.505 / Time: 0h:0m:30s (0h:0m:3s left)
+Iteration 100 / LogL: -16641.422 / Time: 0h:0m:33s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -16662.084
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -16641.311
+2. Current log-likelihood: -16637.781
+3. Current log-likelihood: -16636.761
+4. Current log-likelihood: -16636.400
+5. Current log-likelihood: -16636.140
+6. Current log-likelihood: -16635.941
+7. Current log-likelihood: -16635.783
+8. Current log-likelihood: -16635.657
+9. Current log-likelihood: -16635.551
+10. Current log-likelihood: -16635.467
+11. Current log-likelihood: -16635.393
+12. Current log-likelihood: -16635.329
+13. Current log-likelihood: -16635.273
+14. Current log-likelihood: -16635.223
+15. Current log-likelihood: -16635.177
+16. Current log-likelihood: -16635.135
+17. Current log-likelihood: -16635.097
+18. Current log-likelihood: -16635.063
+19. Current log-likelihood: -16635.042
+20. Current log-likelihood: -16635.022
+21. Current log-likelihood: -16635.004
+22. Current log-likelihood: -16634.989
+23. Current log-likelihood: -16634.975
+24. Current log-likelihood: -16634.963
+25. Current log-likelihood: -16634.952
+Optimal log-likelihood: -16634.937
+Site proportion and rates:  (0.070,0.034) (0.081,0.139) (0.334,0.338) (0.319,0.762) (0.195,3.232)
+Parameters optimization took 25 rounds (4.712 sec)
+BEST SCORE FOUND : -16634.937
+Creating bootstrap support values...
+Split supports printed to NEXUS file Nvectensis.genes.ufboot.splits.nex
+Total tree length: 82.773
+
+Total number of iterations: 101
+CPU time used for tree search: 60.740 sec (0h:1m:0s)
+Wall-clock time used for tree search: 30.443 sec (0h:0m:30s)
+Total CPU time used: 76.700 sec (0h:1m:16s)
+Total wall-clock time used: 38.447 sec (0h:0m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file Nvectensis.genes.ufboot.splits.nex...
+24 taxa and 188 splits.
+Consensus tree written to Nvectensis.genes.ufboot.contree
+Reading input trees file Nvectensis.genes.ufboot.contree
+Log-likelihood of consensus tree: -16635.242
+
+Analysis results written to: 
+  IQ-TREE report:                Nvectensis.genes.ufboot.iqtree
+  Maximum-likelihood tree:       Nvectensis.genes.ufboot.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Nvectensis.genes.ufboot.splits.nex
+  Consensus tree:                Nvectensis.genes.ufboot.contree
+  Screen log file:               Nvectensis.genes.ufboot.log
+
+Date and Time: Thu Oct 14 21:47:48 2021

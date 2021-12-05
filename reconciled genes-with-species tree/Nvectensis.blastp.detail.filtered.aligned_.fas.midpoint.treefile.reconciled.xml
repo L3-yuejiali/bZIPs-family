@@ -1,0 +1,729 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Eumetazoa</name>
+        <clade>
+          <name>Bilateria</name>
+          <clade>
+            <name>Deuterostomia</name>
+            <clade>
+              <name>Chordata</name>
+              <clade>
+                <name>Hsapiens</name>
+              </clade>
+              <clade>
+                <name>Bbelcheri</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>Aplanci</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Myessoensis</name>
+          </clade>
+        </clade>
+        <clade>
+          <name>Cnidaria</name>
+          <clade>
+            <name>Anthozoa</name>
+            <clade>
+              <name>Nvectensis</name>
+            </clade>
+            <clade>
+              <name>Dgigantea</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Hvulgaris</name>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n73</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <speciation speciesLocation="Eumetazoa"></speciation>
+        </eventsRec>
+        <clade>
+          <name>n41</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.60348093515</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Cnidaria"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n37</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.7214204111</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Cnidaria"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n33</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.751510915</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Cnidaria"></speciation>
+              </eventsRec>
+              <clade>
+                <name>n29</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.3704685905</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Anthozoa"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>Dgigantea.XP_028401211.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Dgigantea" geneName="Dgigantea.XP_028401211.1"></leaf>
+                  </eventsRec>
+                </clade>
+                <clade>
+                  <name>Nvectensis.XP_032223018.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032223018.1"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>n32</name>
+                <confidence>1.0</confidence>
+                <branch_length>2.6132245531</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Hvulgaris"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>Hvulgaris.XP_002167159.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Hvulgaris" geneName="Hvulgaris.XP_002167159.1"></leaf>
+                  </eventsRec>
+                </clade>
+                <clade>
+                  <name>Hvulgaris.XP_012556167.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Hvulgaris" geneName="Hvulgaris.XP_012556167.1"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>r51</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Cnidaria"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r49</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Anthozoa"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>n36</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>3.5771592192</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Nvectensis"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>Nvectensis.XP_032238384.1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032238384.1"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Nvectensis.XP_032219950.1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032219950.1"></leaf>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Dgigantea*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Dgigantea"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Hvulgaris*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Hvulgaris"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r53</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Cnidaria"></speciation>
+            </eventsRec>
+            <clade>
+              <name>n40</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.9834157817</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Anthozoa"></speciation>
+              </eventsRec>
+              <clade>
+                <name>Nvectensis.XP_032223208.1</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Nvectensis" geneName="Nvectensis.XP_032223208.1"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>Dgigantea.XP_028401709.1</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Dgigantea" geneName="Dgigantea.XP_028401709.1"></leaf>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>Hvulgaris*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="Hvulgaris"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>n72</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.30993207305</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Bilateria"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n58</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.1671585399</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Bilateria"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n44</name>
+              <confidence>1.0</confidence>
+              <branch_length>4.6168823109</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Bilateria"></speciation>
+              </eventsRec>
+              <clade>
+                <name>Myessoensis.XP_021354724.1</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021354724.1"></leaf>
+                </eventsRec>
+              </clade>
+              <clade>
+                <name>r57</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Deuterostomia"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r55</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Chordata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>Bbelcheri.XP_019634446.1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.XP_019634446.1"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Hsapiens*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Hsapiens"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Aplanci*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Aplanci"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>n57</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.4163010246</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Bilateria"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n55</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.575071012</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Bilateria"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n53</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.1684801575</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Bilateria"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>n47</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.8637436968</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Bilateria"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Myessoensis.XP_021343977.1</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021343977.1"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>r61</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Deuterostomia"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r59</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Chordata"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>Bbelcheri.XP_019642505.1</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.XP_019642505.1"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>Hsapiens*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Hsapiens"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Aplanci*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Aplanci"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>n52</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.8035933417</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Bilateria"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n50</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.6061786342</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Bilateria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>Myessoensis.XP_021379683.1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021379683.1"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>r63</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Deuterostomia"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>Aplanci.XP_022096965.1</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="Aplanci" geneName="Aplanci.XP_022096965.1"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>Chordata*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Chordata"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r65</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Bilateria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>Myessoensis.XP_021349705.1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021349705.1"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>Deuterostomia*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Deuterostomia"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r69</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Bilateria"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r67</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Deuterostomia"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>Aplanci.XP_022093088.1</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Aplanci" geneName="Aplanci.XP_022093088.1"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Chordata*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Chordata"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Myessoensis*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Myessoensis"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r71</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>Myessoensis.XP_021373998.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021373998.1"></leaf>
+                  </eventsRec>
+                </clade>
+                <clade>
+                  <name>Deuterostomia*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Deuterostomia"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>n71</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.5952586592</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Bilateria"></duplication>
+            </eventsRec>
+            <clade>
+              <name>r77</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Bilateria"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r75</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Deuterostomia"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r73</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Chordata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n63</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.6188780485</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Hsapiens"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n61</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1749694295</branch_length>
+                      <eventsRec>
+                        <duplication speciesLocation="Hsapiens"></duplication>
+                      </eventsRec>
+                      <clade>
+                        <name>Hsapiens.NP_003207.1_thyrotroph_embryonic_factor_isoform_1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_003207.1_thyrotroph_embryonic_factor_isoform_1"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>Hsapiens.NP_001343.2_D_site-binding_protein</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_001343.2_D_site-binding_protein"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Hsapiens.NP_002117.1_hepatic_leukemia_factor_isoform_1</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="Hsapiens" geneName="Hsapiens.NP_002117.1_hepatic_leukemia_factor_isoform_1"></leaf>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Bbelcheri*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Bbelcheri"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Aplanci*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Aplanci"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Myessoensis*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Myessoensis"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>n70</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.7544038895</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Bilateria"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n68</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.1506417134</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r81</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Deuterostomia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r79</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Chordata"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n66</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.2038897326</branch_length>
+                      <eventsRec>
+                        <duplication speciesLocation="Bbelcheri"></duplication>
+                      </eventsRec>
+                      <clade>
+                        <name>Bbelcheri.XP_019621754.1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.XP_019621754.1"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>Bbelcheri.XP_019614533.1</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="Bbelcheri" geneName="Bbelcheri.XP_019614533.1"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Hsapiens*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Hsapiens"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Aplanci*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Aplanci"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Myessoensis.XP_021364925.1</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="Myessoensis" geneName="Myessoensis.XP_021364925.1"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>r85</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Bilateria"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r83</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Deuterostomia"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>Aplanci.XP_022103079.1</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <leaf speciesLocation="Aplanci" geneName="Aplanci.XP_022103079.1"></leaf>
+                    </eventsRec>
+                  </clade>
+                  <clade>
+                    <name>Chordata*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Chordata"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Myessoensis*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Myessoensis"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>
