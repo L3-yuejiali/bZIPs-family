@@ -1,0 +1,15 @@
+22/10/2021 01:36:46:299 Welcome to InterProScan-5.52-86.0
+22/10/2021 01:36:46:303 Running InterProScan v5 in SINGLESEQ mode... on Linux
+22/10/2021 01:37:46:420 RunID: iprscan5-R20211022-014436-0893-40610865-p1m
+22/10/2021 01:37:56:530 Running the following analyses:
+[CDD-3.18,Coils-2.2.1,Gene3D-4.3.0,Hamap-2020_05,MobiDBLite-2.0,PANTHER-15.0,Pfam-33.1,Phobius-1.01,PIRSF-3.10,PIRSR-2021_02,PRINTS-42.0,ProSitePatterns-2021_01,ProSiteProfiles-2021_01,SFLD-4,SignalP_EUK-4.1,SignalP_GRAM_NEGATIVE-4.1,SignalP_GRAM_POSITIVE-4.1,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0,TMHMM-2.0c]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+22/10/2021 01:37:58:064 27% completed
+22/10/2021 01:38:10:274 54% completed
+22/10/2021 01:38:17:560 81% completed
+22/10/2021 01:38:17:951 90% completed
+22/10/2021 01:38:19:137 Your requested output formats include SVG. This output format is deprecated and will be removed in the second quarter of 2021. Instead, you can choose to use a JSON output and generate a graphical output in PNG, PDF, etc. See https://interproscan-docs.readthedocs.io/en/latest/OutputFormats.html#
+22/10/2021 01:38:19:408 Your requested output formats include HTML. This output format is deprecated and will be removed in the second quarter of 2021. Instead, you can choose to use a JSON output and generate a graphical output in PNG, PDF, etc. See https://interproscan-docs.readthedocs.io/en/latest/OutputFormats.html#
+22/10/2021 01:38:19:829 100% done:  InterProScan analyses completed

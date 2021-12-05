@@ -1,0 +1,2242 @@
+{
+ "interproscan-version": "5.52-86.0",
+"results": [ {
+  "sequence" : "MAETREAEASDGREEKQLYGFHASTTYTGHPSLPNGRSSDSPEAGQEAEKHFSAREDAGEQSRRLSEEGAVDLSASRPGRGGGGRSHAATQADEDSLGGNSFDSSSVDDQQDSPRDGSPDDKAEERRHQSYLEGYRHPHPDALRAGIPTTPVHLVYPGIGYVQVQMPVDLRGQPVAFLQPGLNGGVPHTGPSTSAASSVTMLEELRKRVHGGLDVSKPPQPRKKARNVPEGEKDNSYWERRRKNNEAAKRSREARKAKEGEIAVRAVLLEEENIKLRAQVGELKQETERLRALLYASSPGKGEK",
+  "md5" : "49476ff220330aef1f778f0d3245f094",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PTHR11988:SF27",
+      "name" : "GH27708P",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 296,
+      "hmmStart" : 130,
+      "hmmEnd" : 338,
+      "hmmLength" : 345,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 301,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 296,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-31,
+    "familyName" : "Not available",
+    "score" : 122.1,
+    "model-ac" : "PTHR11988:SF27"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 93,
+      "end" : 108,
+      "location-fragments" : [ {
+        "start" : 93,
+        "end" : 108,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 43,
+      "end" : 67,
+      "location-fragments" : [ {
+        "start" : 43,
+        "end" : 67,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd14695",
+      "name" : "bZIP_HLF",
+      "description" : "bZIP_HLF",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.18"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 233,
+      "end" : 292,
+      "sites" : [ {
+        "description" : "DNA binding site",
+        "numLocations" : 14,
+        "siteLocations" : [ {
+          "start" : 240,
+          "end" : 240,
+          "residue" : "R"
+        }, {
+          "start" : 245,
+          "end" : 245,
+          "residue" : "N"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "R"
+        }, {
+          "start" : 255,
+          "end" : 255,
+          "residue" : "R"
+        }, {
+          "start" : 244,
+          "end" : 244,
+          "residue" : "N"
+        }, {
+          "start" : 250,
+          "end" : 250,
+          "residue" : "R"
+        }, {
+          "start" : 251,
+          "end" : 251,
+          "residue" : "S"
+        }, {
+          "start" : 248,
+          "end" : 248,
+          "residue" : "A"
+        }, {
+          "start" : 256,
+          "end" : 256,
+          "residue" : "K"
+        }, {
+          "start" : 254,
+          "end" : 254,
+          "residue" : "A"
+        }, {
+          "start" : 252,
+          "end" : 252,
+          "residue" : "R"
+        }, {
+          "start" : 247,
+          "end" : 247,
+          "residue" : "A"
+        }, {
+          "start" : 243,
+          "end" : 243,
+          "residue" : "K"
+        }, {
+          "start" : 249,
+          "end" : 249,
+          "residue" : "K"
+        } ]
+      }, {
+        "description" : "dimer interface",
+        "numLocations" : 19,
+        "siteLocations" : [ {
+          "start" : 258,
+          "end" : 258,
+          "residue" : "K"
+        }, {
+          "start" : 287,
+          "end" : 287,
+          "residue" : "T"
+        }, {
+          "start" : 279,
+          "end" : 279,
+          "residue" : "Q"
+        }, {
+          "start" : 255,
+          "end" : 255,
+          "residue" : "R"
+        }, {
+          "start" : 276,
+          "end" : 276,
+          "residue" : "L"
+        }, {
+          "start" : 284,
+          "end" : 284,
+          "residue" : "K"
+        }, {
+          "start" : 262,
+          "end" : 262,
+          "residue" : "I"
+        }, {
+          "start" : 277,
+          "end" : 277,
+          "residue" : "R"
+        }, {
+          "start" : 266,
+          "end" : 266,
+          "residue" : "A"
+        }, {
+          "start" : 272,
+          "end" : 272,
+          "residue" : "E"
+        }, {
+          "start" : 270,
+          "end" : 270,
+          "residue" : "E"
+        }, {
+          "start" : 286,
+          "end" : 286,
+          "residue" : "E"
+        }, {
+          "start" : 269,
+          "end" : 269,
+          "residue" : "L"
+        }, {
+          "start" : 265,
+          "end" : 265,
+          "residue" : "R"
+        }, {
+          "start" : 263,
+          "end" : 263,
+          "residue" : "A"
+        }, {
+          "start" : 283,
+          "end" : 283,
+          "residue" : "L"
+        }, {
+          "start" : 273,
+          "end" : 273,
+          "residue" : "N"
+        }, {
+          "start" : 280,
+          "end" : 280,
+          "residue" : "V"
+        }, {
+          "start" : 259,
+          "end" : 259,
+          "residue" : "E"
+        } ]
+      } ],
+      "evalue" : 1.00785E-27,
+      "score" : 100.319,
+      "location-fragments" : [ {
+        "start" : 233,
+        "end" : 292,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd14695"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 210,
+      "end" : 260,
+      "location-fragments" : [ {
+        "start" : 210,
+        "end" : 260,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PF07716",
+      "name" : "bZIP_2",
+      "description" : "Basic region leucine zipper",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "33.1"
+      },
+      "entry" : {
+        "accession" : "IPR004827",
+        "name" : "bZIP",
+        "description" : "Basic-leucine zipper domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-881907"
+        }, {
+          "name" : "Formation of the nuclear AP-1 transcription factor 'scaffolding complex'",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209409"
+        }, {
+          "name" : "HCMV Late Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9610379"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-442742"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "PKA-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111931"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5689880"
+        }, {
+          "name" : "FOXO-mediated transcription of cell death genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9614657"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-983231"
+        }, {
+          "name" : "Response of EIF2AK1 (HRI) to heme deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9648895"
+        }, {
+          "name" : "Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8862803"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-8874211"
+        }, {
+          "name" : "MECP2 regulates neuronal receptors and channels",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022699"
+        }, {
+          "name" : "TP53 Regulates Transcription of DNA Repair Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6796648"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559580"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of Adenylate Cyclase",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442720"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2151201"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381183"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-375165"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2871796"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9031628"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983231"
+        }, {
+          "name" : "Dopamine receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390651"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-3214847"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-198693"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2559580"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-450341"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199920"
+        }, {
+          "name" : "FCGR3A-mediated IL10 synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9664323"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9031628"
+        }, {
+          "name" : "Transcriptional Regulation by VENTX",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8853884"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-983231"
+        }, {
+          "name" : "Circadian Clock",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-400253"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-450341"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-375165"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9616222"
+        }, {
+          "name" : "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8936459"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214847"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-2559582"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-983231"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-381033"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2871796"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-881907"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-198693"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9634638"
+        }, {
+          "name" : "Transcriptional regulation of white adipocyte differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381340"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9616222"
+        }, {
+          "name" : "HCMV Early Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9609690"
+        }, {
+          "name" : "BMAL1:CLOCK,NPAS2 activates circadian gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1368108"
+        }, {
+          "name" : "Pre-NOTCH Transcription and Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1912408"
+        }, {
+          "name" : "IRE1alpha activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381070"
+        }, {
+          "name" : "RUNX2 regulates osteoblast differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8940973"
+        }, {
+          "name" : "MECP2 regulates transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022707"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2871796"
+        }, {
+          "name" : "PERK regulates gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381042"
+        }, {
+          "name" : "Transcriptional activtion and repression of REL-68 target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209394"
+        }, {
+          "name" : "Constitutive Signaling by AKT1 E17K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5674400"
+        }, {
+          "name" : "SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2173796"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8874211"
+        }, {
+          "name" : "CaMK IV-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111932"
+        }, {
+          "name" : "G alpha (s) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-418555"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442742"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-450341"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559580"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559582"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559580"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-381033"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2559580"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199920"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-3214847"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-983231"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of CaMKII/CaMKK/CaMKIV cascasde",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442729"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8874211"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-881907"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9616222"
+        }, {
+          "name" : "WNT5:FZD7-mediated leishmania damping",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9673324"
+        }, {
+          "name" : "Transcriptional activtion by AP-1 transcription factor",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209425"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-442742"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559580"
+        }, {
+          "name" : "Activated TAK1 mediates Jun kinases (JNK) phosphorylation and activation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-437986"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2871796"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559580"
+        }, {
+          "name" : "NOTCH2 intracellular domain regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2197563"
+        }, {
+          "name" : "ATF4 activates genes in response to endoplasmic reticulum stress",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-380994"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022692"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9634638"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9634638"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-198693"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381033"
+        }, {
+          "name" : "Regulation of gene expression in beta cells",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-210745"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-450341"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559582"
+        }, {
+          "name" : "Assembly of active LPL and LIPC lipase complexes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8963889"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-375165"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199920"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9018519"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559582"
+        }, {
+          "name" : "MECP2 regulates transcription of neuronal ligands",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022702"
+        }, {
+          "name" : "Adrenoceptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390696"
+        }, {
+          "name" : "Regulation of PTEN gene transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8943724"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2871796"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-3214847"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-381033"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-881907"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559582"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-8874211"
+        }, {
+          "name" : "ADORA2B mediated anti-inflammatory cytokines production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9660821"
+        }, {
+          "name" : "Hedgehog 'on' state",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5632684"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9031628"
+        }, {
+          "name" : "Cargo recognition for clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856825"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-199920"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8874211"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-983231"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8874211"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-450341"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559582"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-442742"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-198693"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-450341"
+        }, {
+          "name" : "Clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856828"
+        }, {
+          "name" : "Interleukin-4 and Interleukin-13 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6785807"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375165"
+        }, {
+          "name" : "Activation of anterior HOX genes in hindbrain development during early embryogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5617472"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9634638"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 233,
+      "end" : 286,
+      "hmmStart" : 1,
+      "hmmEnd" : 54,
+      "hmmLength" : 54,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.9E-15,
+      "score" : 55.4,
+      "envelopeStart" : 233,
+      "envelopeEnd" : 286,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 233,
+        "end" : 286,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.1E-15,
+    "score" : 56.5,
+    "model-ac" : "PF07716"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:1.20.5.170",
+      "name" : "",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 232,
+      "end" : 300,
+      "hmmStart" : 4,
+      "hmmEnd" : 66,
+      "hmmLength" : 78,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.4E-20,
+      "score" : 73.9,
+      "envelopeStart" : 232,
+      "envelopeEnd" : 300,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 232,
+        "end" : 300,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.7E-20,
+    "score" : 74.8,
+    "model-ac" : "6mg2A00"
+  }, {
+    "signature" : {
+      "accession" : "PS50217",
+      "name" : "BZIP",
+      "description" : "Basic-leucine zipper (bZIP) domain profile.",
+      "signatureLibraryRelease" : {
+        "library" : "PROSITE_PROFILES",
+        "version" : "2021_01"
+      },
+      "entry" : {
+        "accession" : "IPR004827",
+        "name" : "bZIP",
+        "description" : "Basic-leucine zipper domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-881907"
+        }, {
+          "name" : "Formation of the nuclear AP-1 transcription factor 'scaffolding complex'",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209409"
+        }, {
+          "name" : "HCMV Late Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9610379"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-442742"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "PKA-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111931"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5689880"
+        }, {
+          "name" : "FOXO-mediated transcription of cell death genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9614657"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-983231"
+        }, {
+          "name" : "Response of EIF2AK1 (HRI) to heme deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9648895"
+        }, {
+          "name" : "Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8862803"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-8874211"
+        }, {
+          "name" : "MECP2 regulates neuronal receptors and channels",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022699"
+        }, {
+          "name" : "TP53 Regulates Transcription of DNA Repair Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6796648"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559580"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of Adenylate Cyclase",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442720"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2151201"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381183"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-375165"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2871796"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9031628"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983231"
+        }, {
+          "name" : "Dopamine receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390651"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-3214847"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-198693"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2559580"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-450341"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199920"
+        }, {
+          "name" : "FCGR3A-mediated IL10 synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9664323"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9031628"
+        }, {
+          "name" : "Transcriptional Regulation by VENTX",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8853884"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-983231"
+        }, {
+          "name" : "Circadian Clock",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-400253"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-450341"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-375165"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9616222"
+        }, {
+          "name" : "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8936459"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214847"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-2559582"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-983231"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-381033"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2871796"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-881907"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-198693"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9634638"
+        }, {
+          "name" : "Transcriptional regulation of white adipocyte differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381340"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9616222"
+        }, {
+          "name" : "HCMV Early Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9609690"
+        }, {
+          "name" : "BMAL1:CLOCK,NPAS2 activates circadian gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1368108"
+        }, {
+          "name" : "Pre-NOTCH Transcription and Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1912408"
+        }, {
+          "name" : "IRE1alpha activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381070"
+        }, {
+          "name" : "RUNX2 regulates osteoblast differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8940973"
+        }, {
+          "name" : "MECP2 regulates transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022707"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2871796"
+        }, {
+          "name" : "PERK regulates gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381042"
+        }, {
+          "name" : "Transcriptional activtion and repression of REL-68 target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209394"
+        }, {
+          "name" : "Constitutive Signaling by AKT1 E17K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5674400"
+        }, {
+          "name" : "SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2173796"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8874211"
+        }, {
+          "name" : "CaMK IV-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111932"
+        }, {
+          "name" : "G alpha (s) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-418555"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442742"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-450341"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559580"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559582"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559580"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-381033"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2559580"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199920"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-3214847"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-983231"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of CaMKII/CaMKK/CaMKIV cascasde",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442729"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8874211"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-881907"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9616222"
+        }, {
+          "name" : "WNT5:FZD7-mediated leishmania damping",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9673324"
+        }, {
+          "name" : "Transcriptional activtion by AP-1 transcription factor",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209425"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-442742"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559580"
+        }, {
+          "name" : "Activated TAK1 mediates Jun kinases (JNK) phosphorylation and activation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-437986"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2871796"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559580"
+        }, {
+          "name" : "NOTCH2 intracellular domain regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2197563"
+        }, {
+          "name" : "ATF4 activates genes in response to endoplasmic reticulum stress",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-380994"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022692"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9634638"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9634638"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-198693"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381033"
+        }, {
+          "name" : "Regulation of gene expression in beta cells",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-210745"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-450341"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559582"
+        }, {
+          "name" : "Assembly of active LPL and LIPC lipase complexes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8963889"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-375165"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199920"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9018519"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559582"
+        }, {
+          "name" : "MECP2 regulates transcription of neuronal ligands",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022702"
+        }, {
+          "name" : "Adrenoceptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390696"
+        }, {
+          "name" : "Regulation of PTEN gene transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8943724"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2871796"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-3214847"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-381033"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-881907"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559582"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-8874211"
+        }, {
+          "name" : "ADORA2B mediated anti-inflammatory cytokines production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9660821"
+        }, {
+          "name" : "Hedgehog 'on' state",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5632684"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9031628"
+        }, {
+          "name" : "Cargo recognition for clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856825"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-199920"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8874211"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-983231"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8874211"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-450341"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559582"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-442742"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-198693"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-450341"
+        }, {
+          "name" : "Clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856828"
+        }, {
+          "name" : "Interleukin-4 and Interleukin-13 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6785807"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375165"
+        }, {
+          "name" : "Activation of anterior HOX genes in hindbrain development during early embryogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5617472"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9634638"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 234,
+      "end" : 297,
+      "score" : 11.357695,
+      "alignment" : "DNSYWERRRKNNEAAKRSREARKAKEGEIAVRAVLLEEENIKLRAQVGELKQETERLRALLYAS",
+      "location-fragments" : [ {
+        "start" : 234,
+        "end" : 297,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "PS50217"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 109,
+      "end" : 140,
+      "location-fragments" : [ {
+        "start" : 109,
+        "end" : 140,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 18,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 18,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SSF57959",
+      "name" : "Leucine zipper domain",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 232,
+      "end" : 295,
+      "hmmLength" : 71,
+      "location-fragments" : [ {
+        "start" : 232,
+        "end" : 295,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.69E-19,
+    "model-ac" : "0053434"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 21,
+      "end" : 42,
+      "location-fragments" : [ {
+        "start" : 21,
+        "end" : 42,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 145,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 145,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 266,
+      "end" : 293,
+      "location-fragments" : [ {
+        "start" : 266,
+        "end" : 293,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PTHR11988",
+      "name" : "THYROTROPH EMBRYONIC FACTOR RELATED",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR040223",
+        "name" : "PAR_bZIP",
+        "description" : "PAR basic leucine zipper protein",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        }, {
+          "name" : "regulation of transcription by RNA polymerase II",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006357"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "BMAL1:CLOCK,NPAS2 activates circadian gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1368108"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 296,
+      "hmmStart" : 130,
+      "hmmEnd" : 338,
+      "hmmLength" : 345,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 2,
+      "envelopeEnd" : 301,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 296,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-31,
+    "familyName" : "Not available",
+    "score" : 122.1,
+    "model-ac" : "PTHR11988"
+  }, {
+    "signature" : {
+      "accession" : "SM00338",
+      "name" : "brlzneu",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR004827",
+        "name" : "bZIP",
+        "description" : "Basic-leucine zipper domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "regulation of transcription, DNA-templated",
+          "databaseName" : "GO",
+          "category" : "BIOLOGICAL_PROCESS",
+          "id" : "GO:0006355"
+        }, {
+          "name" : "DNA-binding transcription factor activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0003700"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-881907"
+        }, {
+          "name" : "Formation of the nuclear AP-1 transcription factor 'scaffolding complex'",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209409"
+        }, {
+          "name" : "HCMV Late Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9610379"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-442742"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9018519"
+        }, {
+          "name" : "PKA-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111931"
+        }, {
+          "name" : "Ub-specific processing proteases",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5689880"
+        }, {
+          "name" : "FOXO-mediated transcription of cell death genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9614657"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-983231"
+        }, {
+          "name" : "Response of EIF2AK1 (HRI) to heme deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9648895"
+        }, {
+          "name" : "Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8862803"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-8874211"
+        }, {
+          "name" : "MECP2 regulates neuronal receptors and channels",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022699"
+        }, {
+          "name" : "TP53 Regulates Transcription of DNA Repair Genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6796648"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559580"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of Adenylate Cyclase",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442720"
+        }, {
+          "name" : "Transcriptional activation of mitochondrial biogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2151201"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381183"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-375165"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2871796"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9031628"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-983231"
+        }, {
+          "name" : "Dopamine receptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390651"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-3214847"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-198693"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2559580"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-450341"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-199920"
+        }, {
+          "name" : "FCGR3A-mediated IL10 synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9664323"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9031628"
+        }, {
+          "name" : "Transcriptional Regulation by VENTX",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8853884"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-983231"
+        }, {
+          "name" : "Circadian Clock",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-400253"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-450341"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-375165"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-9616222"
+        }, {
+          "name" : "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8936459"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-3214847"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-2559582"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-983231"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-381033"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2871796"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-881907"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-198693"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9634638"
+        }, {
+          "name" : "Transcriptional regulation of white adipocyte differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381340"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9616222"
+        }, {
+          "name" : "HCMV Early Events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9609690"
+        }, {
+          "name" : "BMAL1:CLOCK,NPAS2 activates circadian gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1368108"
+        }, {
+          "name" : "Pre-NOTCH Transcription and Translation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1912408"
+        }, {
+          "name" : "IRE1alpha activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381070"
+        }, {
+          "name" : "RUNX2 regulates osteoblast differentiation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8940973"
+        }, {
+          "name" : "MECP2 regulates transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022707"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9616222"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2871796"
+        }, {
+          "name" : "PERK regulates gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381042"
+        }, {
+          "name" : "Transcriptional activtion and repression of REL-68 target genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209394"
+        }, {
+          "name" : "Constitutive Signaling by AKT1 E17K in Cancer",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5674400"
+        }, {
+          "name" : "SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2173796"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-8874211"
+        }, {
+          "name" : "CaMK IV-mediated phosphorylation of CREB",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111932"
+        }, {
+          "name" : "G alpha (s) signalling events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-418555"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442742"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-450341"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559580"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559582"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559580"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-381033"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2559580"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-199920"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-3214847"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-450341"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-983231"
+        }, {
+          "name" : "CREB1 phosphorylation through the activation of CaMKII/CaMKK/CaMKIV cascasde",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-442729"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-8874211"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-881907"
+        }, {
+          "name" : "Transcriptional regulation of granulopoiesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9616222"
+        }, {
+          "name" : "WNT5:FZD7-mediated leishmania damping",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9673324"
+        }, {
+          "name" : "Transcriptional activtion by AP-1 transcription factor",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-209425"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-442742"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-2559580"
+        }, {
+          "name" : "Activated TAK1 mediates Jun kinases (JNK) phosphorylation and activation",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-437986"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2871796"
+        }, {
+          "name" : "Oxidative Stress Induced Senescence",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559580"
+        }, {
+          "name" : "NOTCH2 intracellular domain regulates transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2197563"
+        }, {
+          "name" : "ATF4 activates genes in response to endoplasmic reticulum stress",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-380994"
+        }, {
+          "name" : "Regulation of MECP2 expression and activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022692"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9634638"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-9634638"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-2871796"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-198693"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381033"
+        }, {
+          "name" : "Regulation of gene expression in beta cells",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-210745"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-450341"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-2559582"
+        }, {
+          "name" : "Assembly of active LPL and LIPC lipase complexes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8963889"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-375165"
+        }, {
+          "name" : "Response of EIF2AK4 (GCN2) to amino acid deficiency",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9633012"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-199920"
+        }, {
+          "name" : "Estrogen-dependent gene expression",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9018519"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-2559582"
+        }, {
+          "name" : "MECP2 regulates transcription of neuronal ligands",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9022702"
+        }, {
+          "name" : "Adrenoceptors",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-390696"
+        }, {
+          "name" : "Regulation of PTEN gene transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8943724"
+        }, {
+          "name" : "FCERI mediated MAPK activation",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-2871796"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-SPO-3214847"
+        }, {
+          "name" : "ATF6 (ATF6-alpha) activates chaperones",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-381033"
+        }, {
+          "name" : "HATs acetylate histones",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-3214847"
+        }, {
+          "name" : "Gastrin-CREB signalling pathway via PKC and MAPK",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-881907"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-2559582"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-8874211"
+        }, {
+          "name" : "ADORA2B mediated anti-inflammatory cytokines production",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9660821"
+        }, {
+          "name" : "Hedgehog 'on' state",
+          "databaseName" : "Reactome",
+          "id" : "R-DDI-5632684"
+        }, {
+          "name" : "NGF-stimulated transcription",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9031628"
+        }, {
+          "name" : "Cargo recognition for clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856825"
+        }, {
+          "name" : "CREB phosphorylation",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-199920"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-8874211"
+        }, {
+          "name" : "Factors involved in megakaryocyte development and platelet production",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-983231"
+        }, {
+          "name" : "CREB3 factors activate genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-8874211"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-450341"
+        }, {
+          "name" : "MAPK6/MAPK4 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5687128"
+        }, {
+          "name" : "Senescence-Associated Secretory Phenotype (SASP)",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-2559582"
+        }, {
+          "name" : "CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-442742"
+        }, {
+          "name" : "AKT phosphorylates targets in the nucleus",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-198693"
+        }, {
+          "name" : "Activation of the AP-1 family of transcription factors",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-450341"
+        }, {
+          "name" : "Clathrin-mediated endocytosis",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-8856828"
+        }, {
+          "name" : "Interleukin-4 and Interleukin-13 signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-6785807"
+        }, {
+          "name" : "NCAM signaling for neurite out-growth",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-375165"
+        }, {
+          "name" : "Activation of anterior HOX genes in hindbrain development during early embryogenesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5617472"
+        }, {
+          "name" : "Estrogen-dependent nuclear events downstream of ESR-membrane signaling",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9634638"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 232,
+      "end" : 296,
+      "hmmStart" : 1,
+      "hmmEnd" : 65,
+      "hmmLength" : 65,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 3.2E-8,
+      "score" : 43.3,
+      "location-fragments" : [ {
+        "start" : 232,
+        "end" : 296,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.2E-8,
+    "score" : 43.3,
+    "model-ac" : "SM00338"
+  } ],
+  "xref" : [ {
+    "name" : "Bbelcheri.XP_019642505.1",
+    "id" : "Bbelcheri.XP_019642505.1"
+  } ]
+} ]
+}
